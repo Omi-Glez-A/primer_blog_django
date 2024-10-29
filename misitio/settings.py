@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.sites',
     'django.contrib.staticfiles',
     'polls.apps.PollsConfig',
 ]
@@ -138,4 +137,4 @@ STATIC_ROOT = BASE_DIR / 'static'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # important afefir Site 1 quan afageix contrib.sites a apps instalades
-SITE = 1
+# SITE = 1

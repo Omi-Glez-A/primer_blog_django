@@ -1,5 +1,5 @@
 
-.page-header {
+/* .page-header {
     background-color: #FF9400;
     padding: 1.2rem 1.2rem 1.2rem 2rem;
 }
@@ -10,6 +10,11 @@
     color: white;
     font-size: 2rem;
     text-decoration: none;
+} */
+.navbar > h1,
+.navbar > a,
+.navbar > p {
+    color: white;
 }
 
 .content {
@@ -18,10 +23,6 @@
 
 h1, h2, h3, h4  {
     font-family: 'Rowdies', sans-serif;
-}
-
-.date {
-    color: #828282;
 }
 
 .save {

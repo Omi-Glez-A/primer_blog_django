@@ -29,11 +29,13 @@
     <link rel="stylesheet" href="{% static 'css/blog.css' %}" />
   </head>
   <body>
-    <div class="page-header">
+    <div class="navbar navbar-dark bg-dark">
       <h1><a href="/">Django Girls Blog</a></h1>
       {% if user.is_authenticated %}
-        <a href="{% url 'post_new' %}" class="top-menu"
-          ><i class="bi bi-plus-circle"></i></a>
+      <p>Hello, {{ user.username }}</p>
+      <a href="{% url 'post_new' %}" class="top-menu"
+        ><button type="button" class="btn btn-primary">New Post</button></a
+      >
       {% endif %}
     </div>
     <div class="content container">
